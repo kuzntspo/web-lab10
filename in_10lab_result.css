@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    /*overflow: hidden;*/
+    border-bottom-style: none;
+}
+header {
+    margin: 0px;
+    margin-bottom: 0;
+    background-color: #2D0051;
+}
+.container {
+    margin: 0px;   
+}
+.header-line {
+    padding-top: 25px;
+    display: flex;
+    margin: 0px;
+}
+.nav {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: -15px;
+    object-position: center;
+    vertical-align: text-bottom;
+    font-weight: 700;
+    font-size: 14px;
+}
+#text_analysis {
+    color: #e4c2ff;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    text-decoration: none;
+    margin-right: 25px;
+    margin-left: 10px;
+    object-position: center;
+    font-weight: 700;
+    font-size: 18px;
+}
+a:hover:before {
+    clip: rect(0, 190px, 190px, 0);
+}
+a:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: attr(data-content);
+    display: inline-block;
+    color: #e4c2ff;
+    width: 100%;
+    clip: rect(0, 0, 190px, 0);
+    -webkit-transition: clip cubic-bezier(0.25, 0.46, 0.45, 0.94) 200ms;
+    transition: clip cubic-bezier(0.25, 0.46, 0.45, 0.94) 300ms;
+}
+.background {
+    /*background-image: url(../pictures/bg_2.png);*/
+    background: linear-gradient(to top, #8993ff, #ffffff);
+    height: 225vh;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.bg-elements {
+    background-size: cover;
+    height: fit-content;
+    width: 40%;
+    position:relative;
+    text-align: center;
+    border-bottom-style: none;
+}
+.form_result_name {
+    font-family: 'Dancing Script', cursive;
+    font-size: 38px;
+    position: absolute; 
+    left: 730px;
+    text-align: center;
+    top: 00px;
+}
+.elements-result {
+    text-align: left;
+    padding-left: 20px;
+    font-size: 14px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    position: relative;
+    top: 80px;
+}
+.text-itself {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    color: blueviolet;
+    position: relative;
+    left: 40px;
+    width: 240%;
+    margin-bottom: 50px;
+}
+.words_list {
+    margin-left: 40px;
+    margin-top: 5px;
+    margin-bottom: -10px;
+    color: #2D0051;
+}
+/*
+.text-itself:hover {
+    border: 1px solid #8b10ef;
+}*/
+.src_error {
+    font-style: italic;
+    font-size: 20px;
+    color: red;
+    position: absolute;
+    left: 200px;
+    top: 60px;
+}
+a.analysis_again {
+    text-align:center;
+    font-size:13px;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 3px 6px;
+    background: #eaeef1;
+    position: absolute;
+    left: 900px;
+    top: 20px;
+    display:block;
+    width:90px;
+    margin: 20px auto;
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.1));
+    border-radius: 3px;
+    color: rgba(0,0,0,.6);
+    text-shadow: 0 1px 1px rgba(255,255,255,.7);
+    box-shadow: 0 0 0 1px rgba(0,0,0,.2), 0 1px 2px rgba(0,0,0,.2), inset 0 1px 2px rgba(255,255,255,.7);
+}
+
+a.analysis_again:hover, a.analysis_again.hover {
+    background: #fff;
+}
+a.analysis_again:active, a.analysis_again.active {
+    background: #d0d3d6;
+    background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,0));
+    box-shadow: inset 0 0 2px rgba(0,0,0,.2), inset 0 2px 5px rgba(0,0,0,.2), 0 1px rgba(255,255,255,.2);
+}
+footer {
+    background-color: #2D0051;
+    margin-top: 5px;
+    position: absolute;
+    top: 1700px;
+    bottom: 0px;
+    height: 40px;
+    width: 100%;
+    border-bottom-style: none;
+}
+.down-line {
+    height: 3vh;
+    padding-top: 36px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+}
+.bottom-items {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    position: absolute;
+    bottom: 12px;
+    vertical-align: middle;
+}
+.my-name {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+}
+.text-email {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    margin-right: 5px;
+    font-weight: 700;
+    font-size: 14px;
+}
+.email {
+    color: white;
+    text-decoration: none;
+    margin: 0px 0px;
+    font-weight: 700;
+    font-size: 14px;
+}
+.text-phone {
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    margin-left: 50px;
+    object-position: center;
+    font-weight: 700;
+    font-size: 14px;
+}
+.number-phone {
+    color: white;
+    text-decoration: none;
+    margin: 0px 0px;
+    object-position: center;
+    font-weight: 700;
+    font-size: 14px;
+}
+.foot-date {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    position: relative;
+    right: -410px;
+    object-position: center;
+}
